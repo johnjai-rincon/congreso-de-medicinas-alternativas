@@ -1,0 +1,767 @@
+[2023-08-09 18:57:59.718]: entering -- org.netbeans.installer.Installer.main():81
+[2023-08-09 18:57:59.722]: initializing the installer engine
+[2023-08-09 18:57:59.722]:     entering -- org.netbeans.installer.Installer.<init>():116
+[2023-08-09 18:57:59.722]:     ... initializing ErrorHandler
+[2023-08-09 18:57:59.723]:     ... end of ErrorHandler initialization
+[2023-08-09 18:57:59.725]:     exiting -- org.netbeans.installer.Installer.<init>():116
+[2023-08-09 18:57:59.725]:     entering -- org.netbeans.installer.Installer.<init>():117
+[2023-08-09 18:57:59.725]:     dumping target system information
+[2023-08-09 18:57:59.725]:         system properties:
+[2023-08-09 18:57:59.728]:             awt.toolkit => sun.awt.windows.WToolkit
+[2023-08-09 18:57:59.728]:             file.encoding => Cp1252
+[2023-08-09 18:57:59.728]:             file.encoding.pkg => sun.io
+[2023-08-09 18:57:59.728]:             file.separator => \
+[2023-08-09 18:57:59.728]:             java.awt.graphicsenv => sun.awt.Win32GraphicsEnvironment
+[2023-08-09 18:57:59.728]:             java.awt.printerjob => sun.awt.windows.WPrinterJob
+[2023-08-09 18:57:59.728]:             java.class.path => C:\Users\JOHNJA~1.RIN\AppData\Local\Temp\\NBI78069.tmp\bundle.jar
+[2023-08-09 18:57:59.728]:             java.class.version => 52.0
+[2023-08-09 18:57:59.728]:             java.endorsed.dirs => C:\Program Files\Java\jre1.8.0_291\lib\endorsed
+[2023-08-09 18:57:59.728]:             java.ext.dirs => C:\Program Files\Java\jre1.8.0_291\lib\ext;C:\windows\Sun\Java\lib\ext
+[2023-08-09 18:57:59.729]:             java.home => C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:57:59.729]:             java.io.tmpdir => C:\Users\JOHNJA~1.RIN\AppData\Local\Temp\
+[2023-08-09 18:57:59.729]:             java.library.path => C:\Program Files\Java\jre1.8.0_291\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Users\johnjai.rincon\AppData\Local\Microsoft\WindowsApps;C:\Users\johnjai.rincon\AppData\Local\GitHubDesktop\bin;.
+[2023-08-09 18:57:59.729]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2023-08-09 18:57:59.729]:             java.runtime.version => 1.8.0_291-b10
+[2023-08-09 18:57:59.729]:             java.specification.name => Java Platform API Specification
+[2023-08-09 18:57:59.729]:             java.specification.vendor => Oracle Corporation
+[2023-08-09 18:57:59.729]:             java.specification.version => 1.8
+[2023-08-09 18:57:59.729]:             java.vendor => Oracle Corporation
+[2023-08-09 18:57:59.730]:             java.vendor.url => http://java.oracle.com/
+[2023-08-09 18:57:59.730]:             java.vendor.url.bug => http://bugreport.sun.com/bugreport/
+[2023-08-09 18:57:59.730]:             java.version => 1.8.0_291
+[2023-08-09 18:57:59.730]:             java.vm.info => mixed mode
+[2023-08-09 18:57:59.730]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2023-08-09 18:57:59.730]:             java.vm.specification.name => Java Virtual Machine Specification
+[2023-08-09 18:57:59.730]:             java.vm.specification.vendor => Oracle Corporation
+[2023-08-09 18:57:59.730]:             java.vm.specification.version => 1.8
+[2023-08-09 18:57:59.730]:             java.vm.vendor => Oracle Corporation
+[2023-08-09 18:57:59.730]:             java.vm.version => 25.291-b10
+[2023-08-09 18:57:59.730]:             line.separator => 
+[2023-08-09 18:57:59.730]:             netbeans.default_cachedir_root => C:\Users\johnjai.rincon\AppData\Local\NetBeans\Cache
+[2023-08-09 18:57:59.730]:             netbeans.default_userdir_root => C:\Users\johnjai.rincon\AppData\Roaming\NetBeans
+[2023-08-09 18:57:59.730]:             os.arch => amd64
+[2023-08-09 18:57:59.730]:             os.name => Windows 10
+[2023-08-09 18:57:59.730]:             os.version => 10.0
+[2023-08-09 18:57:59.731]:             path.separator => ;
+[2023-08-09 18:57:59.731]:             sun.arch.data.model => 64
+[2023-08-09 18:57:59.731]:             sun.boot.class.path => C:\Program Files\Java\jre1.8.0_291\lib\resources.jar;C:\Program Files\Java\jre1.8.0_291\lib\rt.jar;C:\Program Files\Java\jre1.8.0_291\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_291\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_291\lib\jce.jar;C:\Program Files\Java\jre1.8.0_291\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_291\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_291\classes
+[2023-08-09 18:57:59.731]:             sun.boot.library.path => C:\Program Files\Java\jre1.8.0_291\bin
+[2023-08-09 18:57:59.731]:             sun.cpu.endian => little
+[2023-08-09 18:57:59.731]:             sun.cpu.isalist => amd64
+[2023-08-09 18:57:59.731]:             sun.desktop => windows
+[2023-08-09 18:57:59.731]:             sun.io.unicode.encoding => UnicodeLittle
+[2023-08-09 18:57:59.731]:             sun.java.command => org.netbeans.installer.Installer
+[2023-08-09 18:57:59.731]:             sun.java.launcher => SUN_STANDARD
+[2023-08-09 18:57:59.731]:             sun.jnu.encoding => Cp1252
+[2023-08-09 18:57:59.731]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2023-08-09 18:57:59.731]:             sun.os.patch.level => 
+[2023-08-09 18:57:59.731]:             user.country => CO
+[2023-08-09 18:57:59.731]:             user.dir => C:\Users\johnjai.rincon\Downloads\drive-download-20230809T233212Z-001
+[2023-08-09 18:57:59.731]:             user.home => C:\Users\johnjai.rincon
+[2023-08-09 18:57:59.731]:             user.language => es
+[2023-08-09 18:57:59.731]:             user.name => johnjai.rincon
+[2023-08-09 18:57:59.732]:             user.script => 
+[2023-08-09 18:57:59.732]:             user.timezone => America/Bogota
+[2023-08-09 18:57:59.732]:             user.variant => 
+[2023-08-09 18:57:59.732]:     ... end of target system information
+[2023-08-09 18:57:59.732]:     exiting -- org.netbeans.installer.Installer.<init>():117
+[2023-08-09 18:57:59.753]:     loading jni library
+[2023-08-09 18:57:59.753]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2023-08-09 18:58:00.157]:         library file path: C:\Users\JOHNJA~1.RIN\AppData\Local\Temp\nbi-1467623632627925372.tmp
+[2023-08-09 18:58:00.916]:         ... successfully loaded the library
+[2023-08-09 18:58:00.927]:     entering -- org.netbeans.installer.Installer.<init>():122
+[2023-08-09 18:58:00.927]:     parsing command-line arguments
+[2023-08-09 18:58:00.933]:         ... no command line arguments were specified
+[2023-08-09 18:58:00.933]:     ... finished parsing command line arguments
+[2023-08-09 18:58:00.933]:     exiting -- org.netbeans.installer.Installer.<init>():122
+[2023-08-09 18:58:00.933]:     entering -- org.netbeans.installer.Installer.<init>():123
+[2023-08-09 18:58:00.933]:     loading engine properties
+[2023-08-09 18:58:00.933]:         loading engine properties
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-description-background.png
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 450
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.title.prefix => NetBeans IDE Installer
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2023-08-09 18:58:00.936]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 442
+[2023-08-09 18:58:00.936]:             loading nbi.overall.license.jtb.resource => org/netbeans/installer/product/components/netbeans-license-jtb.txt
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.height.motif => 470
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2023-08-09 18:58:00.936]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2023-08-09 18:58:00.939]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2023-08-09 18:58:00.939]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2023-08-09 18:58:00.939]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2023-08-09 18:58:00.939]:             loading nbi.product.suggest.install => true
+[2023-08-09 18:58:00.939]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2023-08-09 18:58:00.939]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.png
+[2023-08-09 18:58:00.939]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2023-08-09 18:58:00.939]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 470
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2023-08-09 18:58:00.940]:             loading nbi.product.remove.corrupted.products.silently => true
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.welcome.left.bottom.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2023-08-09 18:58:00.940]:             loading nbi.overall.license.resource => org/netbeans/installer/product/components/netbeans-license.txt
+[2023-08-09 18:58:00.940]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2023-08-09 18:58:00.940]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.height.metal => 470
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2023-08-09 18:58:00.941]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 442
+[2023-08-09 18:58:00.941]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 450
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2023-08-09 18:58:00.942]:             loading nbi.overall.license.javafx.resource => org/netbeans/installer/product/components/netbeans-license-javafx.txt
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2023-08-09 18:58:00.942]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 470
+[2023-08-09 18:58:00.942]:     ... finished loading engine properties
+[2023-08-09 18:58:00.943]:     exiting -- org.netbeans.installer.Installer.<init>():123
+[2023-08-09 18:58:00.943]:     initializing the local directory
+[2023-08-09 18:58:00.943]:         ... custom local directory was not specified, using the default
+[2023-08-09 18:58:00.943]:         ... local directory: C:\Users\johnjai.rincon\.nbi
+[2023-08-09 18:58:00.944]:     ... finished initializing local directory
+[2023-08-09 18:58:00.984]:     entering -- org.netbeans.installer.Installer.<init>():129
+[2023-08-09 18:58:00.984]:     ... initializing DownloadManager
+[2023-08-09 18:58:00.992]:         file not exist, queue is empty!
+[2023-08-09 18:58:01.003]:     ... end of initializing DownloadManager
+[2023-08-09 18:58:01.003]:     exiting -- org.netbeans.installer.Installer.<init>():129
+[2023-08-09 18:58:01.003]:     entering -- org.netbeans.installer.Installer.<init>():130
+[2023-08-09 18:58:01.003]:     ... initializing Registry
+[2023-08-09 18:58:01.022]:     ... end of initializing ErrorHandler
+[2023-08-09 18:58:01.022]:     exiting -- org.netbeans.installer.Installer.<init>():130
+[2023-08-09 18:58:01.023]:     entering -- org.netbeans.installer.Installer.<init>():131
+[2023-08-09 18:58:01.023]:     ... initializing Wizard
+[2023-08-09 18:58:01.105]:         ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:01.213]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:01.213]:         validating previous installations
+[2023-08-09 18:58:01.213]:         ... validating installations finished
+[2023-08-09 18:58:01.213]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:01.220]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [sun.misc.Launcher$AppClassLoader@5c647e05] classloader
+[2023-08-09 18:58:01.229]:     ... end of initializing Wizard
+[2023-08-09 18:58:01.229]:     exiting -- org.netbeans.installer.Installer.<init>():131
+[2023-08-09 18:58:01.229]:     creating lock file
+[2023-08-09 18:58:01.230]:         ... created lock file: C:\Users\johnjai.rincon\.nbi\.nbilock
+[2023-08-09 18:58:01.230]:     finished creating lock file
+[2023-08-09 18:58:01.230]: ... finished initializing the engine
+[2023-08-09 18:58:01.230]: exiting -- org.netbeans.installer.Installer.main():81
+[2023-08-09 18:58:01.230]: entering -- org.netbeans.installer.Installer.main():81
+[2023-08-09 18:58:01.231]: starting the installer
+[2023-08-09 18:58:01.234]:     ... initializing look and feel
+[2023-08-09 18:58:01.234]:         ... custom look and feel class name was not specified, using system default
+[2023-08-09 18:58:01.363]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2023-08-09 18:58:01.363]:         ... get installed L&Fs
+[2023-08-09 18:58:01.386]:         ... set specified L&F
+[2023-08-09 18:58:01.401]:         ... check headless
+[2023-08-09 18:58:01.401]:         ... creating JFileChooser object to check possible issues with UI
+[2023-08-09 18:58:02.326]:         ... getting default Toolkit to check possible issues with UI
+[2023-08-09 18:58:02.326]:         ... creating JProgressBar object to check possible issues with UI
+[2023-08-09 18:58:02.330]:         ... all UI checks done
+[2023-08-09 18:58:02.330]:         ... L&F is set
+[2023-08-09 18:58:02.330]:     ... initializing L&F finished
+[2023-08-09 18:58:02.467]:     NameResolver - to parse &Help!
+[2023-08-09 18:58:02.469]:     NameResolver - to parse < &Back
+[2023-08-09 18:58:02.469]:     NameResolver - to parse &Next >
+[2023-08-09 18:58:02.470]:     NameResolver - to parse Cancel
+[2023-08-09 18:58:02.471]:     NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.472]:     NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.477]:     NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.478]:     NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.478]:     NameResolver - to parse Please wait while NetBeans IDE installer initializes
+[2023-08-09 18:58:02.500]:     NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.502]:     NameResolver - to parse Please wait while NetBeans IDE installer initializes
+[2023-08-09 18:58:02.502]: ... finished starting the installer
+[2023-08-09 18:58:02.503]: exiting -- org.netbeans.installer.Installer.main():81
+[2023-08-09 18:58:02.503]: NameResolver - to parse Configuring the Installer...
+[2023-08-09 18:58:02.504]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():73
+[2023-08-09 18:58:02.504]: initializing product registry
+[2023-08-09 18:58:02.504]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():190
+[2023-08-09 18:58:02.504]:     initializing product registry properties
+[2023-08-09 18:58:02.504]:         initializing local product cache directory
+[2023-08-09 18:58:02.504]:         ... C:\Users\johnjai.rincon\.nbi\product-cache
+[2023-08-09 18:58:02.504]:         initializing local product registry file
+[2023-08-09 18:58:02.507]:         copying file: C:\Users\johnjai.rincon\.nbi\tmp\default-registry.xml to: C:\Users\johnjai.rincon\.nbi\registry.xml
+[2023-08-09 18:58:02.519]:             ... C:\Users\johnjai.rincon\.nbi\registry.xml
+[2023-08-09 18:58:02.519]:             initializing local product registry stub uri
+[2023-08-09 18:58:02.519]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2023-08-09 18:58:02.519]:             initializing bundled product registry uri
+[2023-08-09 18:58:02.520]:             ... resource:data/registry.xml
+[2023-08-09 18:58:02.520]:             initializing product registry schema uri
+[2023-08-09 18:58:02.520]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2023-08-09 18:58:02.520]:             initializing remote product registries uris
+[2023-08-09 18:58:02.520]:             initializing state file schema uri
+[2023-08-09 18:58:02.520]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2023-08-09 18:58:02.520]:             initializing default state file uri
+[2023-08-09 18:58:02.520]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2023-08-09 18:58:02.520]:             initializing target platform
+[2023-08-09 18:58:02.520]:             ... windows-x64
+[2023-08-09 18:58:02.520]:     initializing product registry properties
+[2023-08-09 18:58:02.520]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():190
+[2023-08-09 18:58:02.522]:     ... loading registry from file:/C:/Users/johnjai.rincon/.nbi/registry.xml
+[2023-08-09 18:58:02.534]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:02.534]:     validating previous installations
+[2023-08-09 18:58:02.534]:     ... validating installations finished
+[2023-08-09 18:58:02.534]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:02.534]:     ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:02.589]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:02.589]:     validating previous installations
+[2023-08-09 18:58:02.589]:     ... validating installations finished
+[2023-08-09 18:58:02.589]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:02.591]: ... product registry initialization complete
+[2023-08-09 18:58:02.592]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():73
+[2023-08-09 18:58:02.594]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:02.801]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:03.016]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:03.233]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:03.448]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:03.666]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:03.875]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:04.088]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:04.298]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:04.506]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:04.711]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:04.921]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:05.131]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-09 18:58:05.546]: entering -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():136
+[2023-08-09 18:58:05.546]: search for all java locations
+[2023-08-09 18:58:05.747]:     checking for possible java locations in windows registry
+[2023-08-09 18:58:05.748]:         ... alternative registry view is also supported
+[2023-08-09 18:58:05.749]:         found: HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8\JavaHome = C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:05.750]:         found: HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_291\JavaHome = C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:05.754]:     ... finished
+[2023-08-09 18:58:05.754]:     checking for possible java locations in environment
+[2023-08-09 18:58:05.755]:     ... finished
+[2023-08-09 18:58:05.761]:     NameResolver - to parse $S{java.home}
+[2023-08-09 18:58:05.768]:     NameResolver - to parse $S{java.home}/..
+[2023-08-09 18:58:05.771]:     NameResolver - to parse $N{install}
+[2023-08-09 18:58:05.773]:           --- parsed to C:\Program Files
+[2023-08-09 18:58:05.789]:     NameResolver - to parse $N{install}/Java
+[2023-08-09 18:58:05.790]:           --- parsed to C:\Program Files/Java
+[2023-08-09 18:58:05.793]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:05.799]:         executing command: C:\Program Files\Java\jre1.8.0_291\bin\java.exe -classpath C:\Users\johnjai.rincon\.nbi\tmp TestJDK, in directory: .
+[2023-08-09 18:58:06.124]:             [stdout]: 1.8.0_291
+[2023-08-09 18:58:06.124]:             [stdout]: 25.291-b10
+[2023-08-09 18:58:06.124]:             [stdout]: Oracle Corporation
+[2023-08-09 18:58:06.124]:             [stdout]: Windows 10
+[2023-08-09 18:58:06.125]:             [stdout]: amd64
+[2023-08-09 18:58:06.125]:             [return]: 0
+[2023-08-09 18:58:06.125]:         ... command execution finished
+[2023-08-09 18:58:06.126]:         ... java.version    = 1.8.0_291
+[2023-08-09 18:58:06.126]:         ... java.vm.version = 25.291-b10
+[2023-08-09 18:58:06.126]:         ... java.vendor     = Oracle Corporation
+[2023-08-09 18:58:06.126]:         ... os.name         = Windows 10
+[2023-08-09 18:58:06.126]:         ... os.arch         = amd64
+[2023-08-09 18:58:06.127]:         ... version string : 1.8.0_291
+[2023-08-09 18:58:06.127]:         ... put jdk info to the Java map
+[2023-08-09 18:58:06.128]:     ... parsed java: 1.8.0.291.0 by Oracle Corporation; final=true
+[2023-08-09 18:58:06.135]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:06.135]:     ... parsed java: 1.8.0.291.0 by Oracle Corporation; final=true
+[2023-08-09 18:58:06.141]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291\bin
+[2023-08-09 18:58:06.150]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291\legal
+[2023-08-09 18:58:06.158]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291\lib
+[2023-08-09 18:58:06.166]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-09 18:58:06.173]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:06.173]:     ... parsed java: 1.8.0.291.0 by Oracle Corporation; final=true
+[2023-08-09 18:58:06.181]:     investigating java home candidate: C:\Program Files
+[2023-08-09 18:58:06.189]:     investigating java home candidate: C:\Program Files\7-Zip
+[2023-08-09 18:58:06.197]:     investigating java home candidate: C:\Program Files\Adobe
+[2023-08-09 18:58:06.205]:     investigating java home candidate: C:\Program Files\Common Files
+[2023-08-09 18:58:06.212]:     investigating java home candidate: C:\Program Files\Dell
+[2023-08-09 18:58:06.219]:     investigating java home candidate: C:\Program Files\Fortinet
+[2023-08-09 18:58:06.226]:     investigating java home candidate: C:\Program Files\Google
+[2023-08-09 18:58:06.234]:     investigating java home candidate: C:\Program Files\Intel
+[2023-08-09 18:58:06.243]:     investigating java home candidate: C:\Program Files\Internet Explorer
+[2023-08-09 18:58:06.250]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-09 18:58:06.258]:     investigating java home candidate: C:\Program Files\Microsoft Analysis Services
+[2023-08-09 18:58:06.265]:     investigating java home candidate: C:\Program Files\Microsoft Office
+[2023-08-09 18:58:06.273]:     investigating java home candidate: C:\Program Files\Microsoft Policy Platform
+[2023-08-09 18:58:06.286]:     investigating java home candidate: C:\Program Files\Microsoft SQL Server
+[2023-08-09 18:58:06.293]:     investigating java home candidate: C:\Program Files\Microsoft Update Health Tools
+[2023-08-09 18:58:06.301]:     investigating java home candidate: C:\Program Files\Microsoft.NET
+[2023-08-09 18:58:06.309]:     investigating java home candidate: C:\Program Files\ModifiableWindowsApps
+[2023-08-09 18:58:06.316]:     investigating java home candidate: C:\Program Files\Mozilla Firefox
+[2023-08-09 18:58:06.324]:     investigating java home candidate: C:\Program Files\PDFCreator
+[2023-08-09 18:58:06.335]:     investigating java home candidate: C:\Program Files\Uninstall Information
+[2023-08-09 18:58:06.342]:     investigating java home candidate: C:\Program Files\Windows Defender
+[2023-08-09 18:58:06.350]:     investigating java home candidate: C:\Program Files\Windows Defender Advanced Threat Protection
+[2023-08-09 18:58:06.358]:     investigating java home candidate: C:\Program Files\Windows Mail
+[2023-08-09 18:58:06.368]:     investigating java home candidate: C:\Program Files\Windows Media Player
+[2023-08-09 18:58:06.375]:     investigating java home candidate: C:\Program Files\Windows Multimedia Platform
+[2023-08-09 18:58:06.382]:     investigating java home candidate: C:\Program Files\Windows NT
+[2023-08-09 18:58:06.390]:     investigating java home candidate: C:\Program Files\Windows Photo Viewer
+[2023-08-09 18:58:06.399]:     investigating java home candidate: C:\Program Files\Windows Portable Devices
+[2023-08-09 18:58:06.406]:     investigating java home candidate: C:\Program Files\Windows Security
+[2023-08-09 18:58:06.414]:     investigating java home candidate: C:\Program Files\Windows Sidebar
+[2023-08-09 18:58:06.420]:     investigating java home candidate: C:\Program Files\WindowsApps
+[2023-08-09 18:58:06.475]:     investigating java home candidate: C:\Program Files\WindowsPowerShell
+[2023-08-09 18:58:06.482]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-09 18:58:06.489]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_291
+[2023-08-09 18:58:06.489]:     ... parsed java: 1.8.0.291.0 by Oracle Corporation; final=true
+[2023-08-09 18:58:06.703]: ... end of search for all java locations
+[2023-08-09 18:58:06.703]: exiting -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():136
+[2023-08-09 18:58:06.703]: ... bundledProductSkip = null
+[2023-08-09 18:58:06.703]: ... bundledProductToInstall = null
+[2023-08-09 18:58:06.729]: NameResolver - to parse resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2023-08-09 18:58:06.737]: NameResolver - to parse &Help!
+[2023-08-09 18:58:06.738]: NameResolver - to parse < &Back
+[2023-08-09 18:58:06.738]: NameResolver - to parse &Next >
+[2023-08-09 18:58:06.738]: NameResolver - to parse Cancel
+[2023-08-09 18:58:06.739]: NameResolver - to parse <html><h2 style="color: #FF8E00; bold">Welcome to the NetBeans IDE 8.2 Installer</h2>
+[2023-08-09 18:58:06.739]: NameResolver - to parse </html>
+[2023-08-09 18:58:06.739]: NameResolver - to parse text/html
+[2023-08-09 18:58:06.809]: NameResolver - to parse <html>
+[2023-08-09 18:58:06.809]: NameResolver - to parse The installer will install the NetBeans IDE with the following packs and runtimes.<br>Click Customize to select the packs and runtimes to install.<br><br>
+[2023-08-09 18:58:06.809]: NameResolver - to parse text/html
+[2023-08-09 18:58:06.812]: NameResolver - to parse <html>
+[2023-08-09 18:58:06.812]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.812]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.813]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.813]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.813]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.814]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.814]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.814]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.814]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.814]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.815]: NameResolver - to parse <br><b>{0}</b><br>
+[2023-08-09 18:58:06.815]: NameResolver - to parse {0}<br>
+[2023-08-09 18:58:06.815]: NameResolver - to parse </html>
+[2023-08-09 18:58:06.815]: NameResolver - to parse text/html
+[2023-08-09 18:58:06.818]: NameResolver - to parse &Customize...
+[2023-08-09 18:58:06.836]: NameResolver - to parse Installation Size: {0}
+[2023-08-09 18:58:06.839]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:06.841]: NameResolver - to parse $N{install}/NetBeans 8.2
+[2023-08-09 18:58:06.842]:       --- parsed to C:\Program Files/NetBeans 8.2
+[2023-08-09 18:58:06.843]: NameResolver - to parse 1.8.0.0.0
+[2023-08-09 18:58:06.843]: NameResolver - to parse 500.0.0
+[2023-08-09 18:58:06.844]: NameResolver - to parse .*
+[2023-08-09 18:58:06.845]: NameResolver - to parse false
+[2023-08-09 18:58:06.846]: NameResolver - to parse false
+[2023-08-09 18:58:06.846]: ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:06.883]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:06.883]: validating previous installations
+[2023-08-09 18:58:06.883]: ... validating installations finished
+[2023-08-09 18:58:06.883]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:06.884]: ... no Java found
+[2023-08-09 18:58:06.884]: ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:06.912]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:06.912]: validating previous installations
+[2023-08-09 18:58:06.912]: ... validating installations finished
+[2023-08-09 18:58:06.912]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:06.912]: ... no Java found
+[2023-08-09 18:58:06.912]: NameResolver - to parse false
+[2023-08-09 18:58:06.912]: NameResolver - to parse No compatible JDK was found.
+[2023-08-09 18:58:06.912]: No compatible JDK was found.
+[2023-08-09 18:58:06.915]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:06.936]: NameResolver - to parse <dummy description>
+[2023-08-09 18:58:08.932]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:10.939]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:12.943]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:14.947]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:16.951]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:18.960]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:20.976]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:22.985]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:24.991]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:27.001]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:29.007]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:31.011]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:33.022]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:35.037]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:37.040]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:39.051]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:41.061]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:42.552]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-09 18:58:42.563]: NameResolver - to parse &Help!
+[2023-08-09 18:58:42.564]: NameResolver - to parse < &Back
+[2023-08-09 18:58:42.565]: NameResolver - to parse &Next >
+[2023-08-09 18:58:42.565]: NameResolver - to parse Cancel
+[2023-08-09 18:58:42.565]: NameResolver - to parse I &accept the terms in the license agreement
+[2023-08-09 18:58:42.565]: NameResolver - to parse org/netbeans/installer/product/components/netbeans-license.txt
+[2023-08-09 18:58:42.566]: NameResolver - to parse $R{org/netbeans/installer/product/components/netbeans-license.txt;UTF-8}
+[2023-08-09 18:58:42.580]: NameResolver - to parse {0}
+[2023-08-09 18:58:42.676]: NameResolver - to parse License Agreement
+[2023-08-09 18:58:42.676]: NameResolver - to parse License Agreement
+[2023-08-09 18:58:42.678]: NameResolver - to parse License Agreement
+[2023-08-09 18:58:42.678]: NameResolver - to parse License Agreement
+[2023-08-09 18:58:42.678]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-09 18:58:42.749]: NameResolver - to parse License Agreement
+[2023-08-09 18:58:42.749]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-09 18:58:45.463]: NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2023-08-09 18:58:45.464]: NameResolver - to parse 1.8.0.0.0
+[2023-08-09 18:58:45.464]: NameResolver - to parse 500.0.0
+[2023-08-09 18:58:45.464]: NameResolver - to parse .*
+[2023-08-09 18:58:45.465]: NameResolver - to parse false
+[2023-08-09 18:58:45.466]: NameResolver - to parse false
+[2023-08-09 18:58:45.466]: ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:45.495]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:45.496]: validating previous installations
+[2023-08-09 18:58:45.496]: ... validating installations finished
+[2023-08-09 18:58:45.496]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:45.496]: ... no Java found
+[2023-08-09 18:58:45.842]: NameResolver - to parse &Help!
+[2023-08-09 18:58:45.843]: NameResolver - to parse < &Back
+[2023-08-09 18:58:45.843]: NameResolver - to parse &Next >
+[2023-08-09 18:58:45.843]: NameResolver - to parse Cancel
+[2023-08-09 18:58:45.843]: NameResolver - to parse &JDK™ for the NetBeans IDE:
+[2023-08-09 18:58:45.844]: NameResolver - to parse 1.8.0.0.0
+[2023-08-09 18:58:45.844]: NameResolver - to parse 500.0.0
+[2023-08-09 18:58:45.844]: NameResolver - to parse <html>The installer could not find a compatible JDK installation, specify it manually.<br>The minimum required version is {0}. To download JDK, visit <a href="{2}">{2}</a>
+[2023-08-09 18:58:45.844]: NameResolver - to parse http://www.oracle.com/technetwork/java/javase/downloads/
+[2023-08-09 18:58:45.847]: Checking if java.awt.Desktop.getDesktop().browse() functionality is supported
+[2023-08-09 18:58:45.848]: ... loading registry from resource:data/registry.xml
+[2023-08-09 18:58:45.868]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:45.868]: validating previous installations
+[2023-08-09 18:58:45.868]: ... validating installations finished
+[2023-08-09 18:58:45.868]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 18:58:45.868]: ... no Java found
+[2023-08-09 18:58:45.868]: NameResolver - to parse Br&owse...
+[2023-08-09 18:58:45.869]: NameResolver - to parse &Install the NetBeans IDE to:
+[2023-08-09 18:58:45.869]: NameResolver - to parse B&rowse...
+[2023-08-09 18:58:45.872]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:45.878]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:45.878]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 18:58:45.879]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 18:58:45.879]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 18:58:45.879]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 18:58:45.880]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-09 18:58:45.881]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:45.889]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 18:58:45.889]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-09 18:58:47.896]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:49.916]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:51.923]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:53.932]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:55.945]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:57.957]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:58:59.965]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:01.985]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:03.999]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:06.008]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:08.010]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:10.020]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:11.127]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:12.032]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:14.037]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:16.044]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:18.053]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:20.060]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:22.073]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:24.097]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:26.003]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:26.021]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:26.032]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:26.037]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:26.116]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:26.986]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:27.161]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:27.328]: NameResolver - to parse The specified JDK folder is invalid.
+[2023-08-09 18:59:28.130]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:30.147]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:32.157]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:34.164]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:36.177]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:38.200]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:40.206]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:42.211]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:44.226]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:46.238]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:48.246]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:50.254]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:52.267]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:54.276]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:56.289]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 18:59:58.303]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:00.321]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:02.341]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:04.353]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:06.366]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:08.384]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:10.401]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:12.414]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:14.431]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:16.449]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:18.459]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:20.479]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:22.494]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:24.509]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:26.520]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:28.531]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:30.542]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:32.560]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:32.817]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:32.820]: NameResolver - to parse &Help!
+[2023-08-09 19:00:32.820]: NameResolver - to parse < &Back
+[2023-08-09 19:00:32.820]: NameResolver - to parse &Next >
+[2023-08-09 19:00:32.821]: NameResolver - to parse Cancel
+[2023-08-09 19:00:32.821]: NameResolver - to parse I &accept the terms in the license agreement
+[2023-08-09 19:00:32.821]: NameResolver - to parse org/netbeans/installer/product/components/netbeans-license.txt
+[2023-08-09 19:00:32.822]: NameResolver - to parse $R{org/netbeans/installer/product/components/netbeans-license.txt;UTF-8}
+[2023-08-09 19:00:32.836]: NameResolver - to parse {0}
+[2023-08-09 19:00:32.877]: NameResolver - to parse License Agreement
+[2023-08-09 19:00:32.877]: NameResolver - to parse License Agreement
+[2023-08-09 19:00:32.879]: NameResolver - to parse License Agreement
+[2023-08-09 19:00:32.879]: NameResolver - to parse License Agreement
+[2023-08-09 19:00:32.879]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-09 19:00:32.907]: NameResolver - to parse License Agreement
+[2023-08-09 19:00:32.908]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-09 19:00:34.303]: NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2023-08-09 19:00:34.304]: NameResolver - to parse 1.8.0.0.0
+[2023-08-09 19:00:34.304]: NameResolver - to parse 500.0.0
+[2023-08-09 19:00:34.304]: NameResolver - to parse .*
+[2023-08-09 19:00:34.304]: NameResolver - to parse false
+[2023-08-09 19:00:34.306]: NameResolver - to parse false
+[2023-08-09 19:00:34.306]: ... loading registry from resource:data/registry.xml
+[2023-08-09 19:00:34.334]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 19:00:34.334]: validating previous installations
+[2023-08-09 19:00:34.334]: ... validating installations finished
+[2023-08-09 19:00:34.334]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 19:00:34.334]: ... no Java found
+[2023-08-09 19:00:34.334]: NameResolver - to parse &Help!
+[2023-08-09 19:00:34.334]: NameResolver - to parse < &Back
+[2023-08-09 19:00:34.334]: NameResolver - to parse &Next >
+[2023-08-09 19:00:34.334]: NameResolver - to parse Cancel
+[2023-08-09 19:00:34.334]: NameResolver - to parse &JDK™ for the NetBeans IDE:
+[2023-08-09 19:00:34.334]: NameResolver - to parse 1.8.0.0.0
+[2023-08-09 19:00:34.335]: NameResolver - to parse 500.0.0
+[2023-08-09 19:00:34.335]: NameResolver - to parse <html>The installer could not find a compatible JDK installation, specify it manually.<br>The minimum required version is {0}. To download JDK, visit <a href="{2}">{2}</a>
+[2023-08-09 19:00:34.335]: NameResolver - to parse http://www.oracle.com/technetwork/java/javase/downloads/
+[2023-08-09 19:00:34.337]: ... loading registry from resource:data/registry.xml
+[2023-08-09 19:00:34.345]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 19:00:34.345]: validating previous installations
+[2023-08-09 19:00:34.345]: ... validating installations finished
+[2023-08-09 19:00:34.345]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2023-08-09 19:00:34.345]: ... no Java found
+[2023-08-09 19:00:34.345]: NameResolver - to parse Br&owse...
+[2023-08-09 19:00:34.350]: NameResolver - to parse &Install the NetBeans IDE to:
+[2023-08-09 19:00:34.350]: NameResolver - to parse B&rowse...
+[2023-08-09 19:00:34.350]: NameResolver - to parse The installation folder cannot be empty.
+[2023-08-09 19:00:34.353]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:34.355]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:34.356]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 19:00:34.356]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 19:00:34.357]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 19:00:34.357]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 19:00:34.357]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-09 19:00:34.360]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:34.362]: NameResolver - to parse NetBeans IDE 8.2 Installation
+[2023-08-09 19:00:34.362]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-09 19:00:36.375]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:38.385]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:40.408]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:42.428]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:44.436]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:46.453]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:47.043]: NameResolver - to parse The installation folder cannot be empty.
+[2023-08-09 19:00:47.048]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:48.468]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:50.475]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:52.491]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:54.503]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:56.515]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:00:58.524]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:00.534]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:02.546]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:04.559]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:06.565]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:08.575]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:10.591]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:12.598]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:14.611]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:16.631]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:18.640]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:20.648]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:22.649]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:24.659]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:26.678]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:28.695]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:30.711]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:32.729]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:34.755]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:36.771]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:38.782]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:40.792]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:42.804]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:44.811]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:46.822]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:48.834]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:50.850]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:52.854]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:54.863]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:56.869]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:01:58.873]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:00.881]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:02.890]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:04.907]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:06.919]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:08.936]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:10.949]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:12.958]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:14.974]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:16.989]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:19.005]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:21.024]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:23.029]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:25.045]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:27.054]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:29.080]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:31.092]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:33.104]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:35.116]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:37.124]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:39.137]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:41.144]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:43.162]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:45.177]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:47.190]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:49.197]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:51.204]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:53.211]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:55.219]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:57.233]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:02:59.249]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:01.259]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:03.264]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:05.280]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:07.295]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:09.298]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:11.314]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:12.014]: NameResolver - to parse Cancel
+[2023-08-09 19:03:12.015]: NameResolver - to parse Are you sure you want to cancel?
+[2023-08-09 19:03:12.015]: ... showing Yes/No dialog
+[2023-08-09 19:03:12.015]:     title: Cancel
+[2023-08-09 19:03:12.015]:     message: Are you sure you want to cancel?
+[2023-08-09 19:03:13.958]: ... dialog closed, choice : no
+[2023-08-09 19:03:15.337]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:17.346]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:19.355]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:21.360]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:23.378]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:25.386]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:27.393]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:29.409]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:31.415]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:33.431]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:35.453]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:37.467]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:39.039]: NameResolver - to parse Cancel
+[2023-08-09 19:03:39.039]: NameResolver - to parse Are you sure you want to cancel?
+[2023-08-09 19:03:39.039]: ... showing Yes/No dialog
+[2023-08-09 19:03:39.039]:     title: Cancel
+[2023-08-09 19:03:39.039]:     message: Are you sure you want to cancel?
+[2023-08-09 19:03:40.137]: ... dialog closed, choice : no
+[2023-08-09 19:03:41.481]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:43.497]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:45.510]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:47.530]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:49.549]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:51.574]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:53.588]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:55.607]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:57.615]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:03:59.630]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:01.648]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:03.665]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:05.676]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:07.688]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:09.695]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:11.707]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:13.710]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:15.718]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:17.733]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:19.740]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:21.749]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:23.756]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:25.775]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:27.788]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:29.800]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:31.810]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:33.819]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:35.830]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:37.850]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:39.859]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:41.879]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:43.891]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:45.901]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:47.918]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:49.937]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:51.959]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:53.977]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:55.992]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:04:58.000]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:00.020]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:02.026]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:04.040]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:06.051]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:08.064]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:10.074]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:12.088]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:14.097]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:16.106]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:18.111]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:20.118]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:22.132]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:24.154]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:26.170]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:28.188]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:30.206]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:32.223]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:34.234]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:36.240]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:38.254]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:40.262]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:42.265]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:44.271]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:46.279]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:48.295]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:50.302]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:52.317]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:54.335]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:56.350]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:05:58.359]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:00.375]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:02.384]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:04.390]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:06.400]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:08.408]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:10.420]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:12.428]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:14.436]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:16.459]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:18.473]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:20.481]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:22.492]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:24.498]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:26.504]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:28.522]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:30.530]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:32.544]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:34.548]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:36.560]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:38.570]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:40.590]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:42.610]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:44.620]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:46.628]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:48.641]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:50.649]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:52.659]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:54.673]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:56.686]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:06:58.692]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:07:00.704]: NameResolver - to parse The path to the JDK cannot be empty.
+[2023-08-09 19:07:01.438]: NameResolver - to parse Cancel
+[2023-08-09 19:07:01.438]: NameResolver - to parse Are you sure you want to cancel?
+[2023-08-09 19:07:01.438]: ... showing Yes/No dialog
+[2023-08-09 19:07:01.438]:     title: Cancel
+[2023-08-09 19:07:01.438]:     message: Are you sure you want to cancel?
+[2023-08-09 19:07:02.737]: ... dialog closed, choice : yes

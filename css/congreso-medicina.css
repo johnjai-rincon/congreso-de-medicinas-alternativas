@@ -647,15 +647,15 @@
 }
 
 /* Country flag pseudo-elements (flags not in HTML due to CKEditor issues) */
-.congreso-speaker--co .congreso-speaker__country::before { content: "\1F1E8\1F1F4"; margin-right: 0.4em; }
-.congreso-speaker--ch .congreso-speaker__country::before { content: "\1F1E8\1F1ED"; margin-right: 0.4em; }
-.congreso-speaker--es .congreso-speaker__country::before { content: "\1F1EA\1F1F8"; margin-right: 0.4em; }
-.congreso-speaker--de .congreso-speaker__country::before { content: "\1F1E9\1F1EA"; margin-right: 0.4em; }
-.congreso-speaker--it .congreso-speaker__country::before { content: "\1F1EE\1F1F9"; margin-right: 0.4em; }
-.congreso-speaker--br .congreso-speaker__country::before { content: "\1F1E7\1F1F7"; margin-right: 0.4em; }
-.congreso-speaker--mx .congreso-speaker__country::before { content: "\1F1F2\1F1FD"; margin-right: 0.4em; }
-.congreso-speaker--ar .congreso-speaker__country::before { content: "\1F1E6\1F1F7"; margin-right: 0.4em; }
-.congreso-speaker--ve .congreso-speaker__country::before { content: "\1F1FB\1F1EA"; margin-right: 0.4em; }
+.congreso-speaker--co .congreso-speaker__country::before { content: "\1F1E8 \1F1F4"; margin-right: 0.4em; }
+.congreso-speaker--ch .congreso-speaker__country::before { content: "\1F1E8 \1F1ED"; margin-right: 0.4em; }
+.congreso-speaker--es .congreso-speaker__country::before { content: "\1F1EA \1F1F8"; margin-right: 0.4em; }
+.congreso-speaker--de .congreso-speaker__country::before { content: "\1F1E9 \1F1EA"; margin-right: 0.4em; }
+.congreso-speaker--it .congreso-speaker__country::before { content: "\1F1EE \1F1F9"; margin-right: 0.4em; }
+.congreso-speaker--br .congreso-speaker__country::before { content: "\1F1E7 \1F1F7"; margin-right: 0.4em; }
+.congreso-speaker--mx .congreso-speaker__country::before { content: "\1F1F2 \1F1FD"; margin-right: 0.4em; }
+.congreso-speaker--ar .congreso-speaker__country::before { content: "\1F1E6 \1F1F7"; margin-right: 0.4em; }
+.congreso-speaker--ve .congreso-speaker__country::before { content: "\1F1FB \1F1EA"; margin-right: 0.4em; }
 
 /* =============================================================================
    11. PRICING CARDS

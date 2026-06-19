@@ -1,0 +1,1240 @@
+/*
+ * congreso-medicina.css
+ * Landing page styles for Congreso de Actualización Médica
+ * All classes prefixed with .congreso- to avoid Drupal conflicts
+ * Mobile-first, Bootstrap 5.3 assumed available
+ * WCAG AA compliant contrast ratios
+ */
+
+/* =============================================================================
+   1. CSS CUSTOM PROPERTIES & BASE
+   ============================================================================= */
+
+.congreso-wrapper {
+  --congreso-primary: #0d8a8a;
+  --congreso-primary-dark: #076969;
+  --congreso-primary-light: #e6f4f4;
+  --congreso-dark: #1a1a2e;
+  --congreso-light: #f5f6f8;
+  --congreso-white: #ffffff;
+  --congreso-accent: #c9a84c;
+  --congreso-accent-light: #f9f3e3;
+  --congreso-gray: #6c757d;
+  --congreso-border: #dee2e6;
+  --congreso-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  --congreso-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.12);
+  --congreso-radius: 12px;
+  --congreso-transition: all 0.3s ease;
+}
+
+.congreso-wrapper *,
+.congreso-wrapper *::before,
+.congreso-wrapper *::after {
+  box-sizing: border-box;
+}
+
+/* =============================================================================
+   2. SECTION BASE STYLES
+   ============================================================================= */
+
+.congreso-section {
+  padding: 5rem 0;
+  background-color: var(--congreso-white);
+}
+
+.congreso-section--light {
+  background-color: var(--congreso-light);
+}
+
+.congreso-section--dark {
+  background-color: var(--congreso-primary-dark);
+  color: var(--congreso-white);
+}
+
+.congreso-section--dark .congreso-section-title {
+  color: var(--congreso-white);
+}
+
+.congreso-section--dark .congreso-section-title::after {
+  background-color: var(--congreso-accent);
+}
+
+.congreso-section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--congreso-dark);
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.congreso-section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--congreso-primary);
+  border-radius: 2px;
+  margin: 0.75rem auto 0;
+}
+
+/* =============================================================================
+   3. BUTTONS
+   ============================================================================= */
+
+.congreso-btn-primary {
+  display: inline-block;
+  background-color: var(--congreso-primary);
+  color: var(--congreso-white);
+  border: 2px solid var(--congreso-primary);
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: var(--congreso-transition);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.congreso-btn-primary:hover,
+.congreso-btn-primary:focus {
+  background-color: var(--congreso-primary-dark);
+  border-color: var(--congreso-primary-dark);
+  color: var(--congreso-white);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--congreso-shadow-hover);
+}
+
+.congreso-btn-primary:active {
+  transform: translateY(0);
+}
+
+.congreso-btn-outline {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--congreso-primary);
+  border: 2px solid var(--congreso-primary);
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: var(--congreso-transition);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.congreso-btn-outline:hover,
+.congreso-btn-outline:focus {
+  background-color: var(--congreso-primary);
+  color: var(--congreso-white);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--congreso-shadow-hover);
+}
+
+.congreso-btn-outline:active {
+  transform: translateY(0);
+}
+
+.congreso-btn-outline--white {
+  color: var(--congreso-white);
+  border-color: var(--congreso-white);
+}
+
+.congreso-btn-outline--white:hover,
+.congreso-btn-outline--white:focus {
+  background-color: var(--congreso-white);
+  color: var(--congreso-primary-dark);
+}
+
+/* =============================================================================
+   4. CARD BASE
+   ============================================================================= */
+
+.congreso-card {
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  transition: var(--congreso-transition);
+  overflow: hidden;
+}
+
+.congreso-card:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-4px);
+}
+
+/* =============================================================================
+   5. BADGE
+   ============================================================================= */
+
+.congreso-badge {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.congreso-badge--primary {
+  background-color: var(--congreso-primary-light);
+  color: var(--congreso-primary-dark);
+}
+
+.congreso-badge--accent {
+  background-color: var(--congreso-accent-light);
+  color: #7a5a1a;
+}
+
+.congreso-badge--white {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--congreso-white);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* =============================================================================
+   6. SUBNAV / STICKY NAVIGATION
+   ============================================================================= */
+
+.congreso-subnav {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: var(--congreso-white);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--congreso-border);
+}
+
+.congreso-subnav .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.congreso-subnav .nav::-webkit-scrollbar {
+  display: none;
+}
+
+.congreso-subnav .nav-link {
+  color: var(--congreso-dark);
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 1rem 1.25rem;
+  white-space: nowrap;
+  transition: var(--congreso-transition);
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+
+.congreso-subnav .nav-link:hover,
+.congreso-subnav .nav-link:focus {
+  color: var(--congreso-primary);
+  border-bottom-color: var(--congreso-primary-light);
+}
+
+.congreso-subnav .nav-link.active {
+  color: var(--congreso-primary);
+  font-weight: 700;
+  border-bottom-color: var(--congreso-primary);
+}
+
+/* =============================================================================
+   7. HERO / BANNER
+   ============================================================================= */
+
+.congreso-hero {
+  min-height: 85vh;
+  background: linear-gradient(
+    135deg,
+    var(--congreso-dark) 0%,
+    var(--congreso-primary-dark) 50%,
+    var(--congreso-primary) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 0;
+}
+
+.congreso-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    ellipse at 70% 50%,
+    rgba(13, 138, 138, 0.3) 0%,
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+.congreso-hero__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: var(--congreso-white);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.congreso-hero__eyebrow {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--congreso-accent);
+  margin-bottom: 1rem;
+}
+
+.congreso-hero__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--congreso-white);
+  margin-bottom: 1.25rem;
+}
+
+.congreso-hero__subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 680px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.congreso-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.congreso-hero__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.congreso-hero__meta-item svg {
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.congreso-hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.congreso-hero__badge {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--congreso-white);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.4em 1em;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.congreso-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* =============================================================================
+   8. INFO CARDS
+   ============================================================================= */
+
+.congreso-info-card {
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: var(--congreso-transition);
+  height: 100%;
+}
+
+.congreso-info-card:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-4px);
+}
+
+.congreso-info-card__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--congreso-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  color: var(--congreso-primary);
+  flex-shrink: 0;
+}
+
+.congreso-info-card__icon svg {
+  width: 32px;
+  height: 32px;
+  color: var(--congreso-primary);
+}
+
+.congreso-info-card__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--congreso-gray);
+  margin-bottom: 0.5rem;
+}
+
+.congreso-info-card__value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--congreso-dark);
+  line-height: 1.4;
+}
+
+.congreso-info-card__sub {
+  font-size: 0.875rem;
+  color: var(--congreso-gray);
+  margin-top: 0.35rem;
+}
+
+/* =============================================================================
+   9. PROGRAM / SCHEDULE / TIMELINE
+   ============================================================================= */
+
+.congreso-programa .nav-tabs {
+  border-bottom: 2px solid var(--congreso-border);
+  gap: 0.25rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.congreso-programa .nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.congreso-programa .nav-tabs .nav-link {
+  color: var(--congreso-gray);
+  font-weight: 500;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  padding: 0.75rem 1.5rem;
+  white-space: nowrap;
+  transition: var(--congreso-transition);
+  background: none;
+}
+
+.congreso-programa .nav-tabs .nav-link:hover {
+  color: var(--congreso-primary);
+  border-bottom-color: var(--congreso-primary-light);
+}
+
+.congreso-programa .nav-tabs .nav-link.active,
+.congreso-programa .nav-tabs .nav-item.show .nav-link {
+  color: var(--congreso-primary);
+  font-weight: 700;
+  border-bottom-color: var(--congreso-primary);
+  background-color: transparent;
+}
+
+.congreso-programa .tab-content {
+  padding-top: 2rem;
+}
+
+/* Timeline */
+
+.congreso-timeline {
+  border-left: 3px solid var(--congreso-primary-light);
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.congreso-timeline__item {
+  position: relative;
+  padding: 0 0 1.75rem 2rem;
+  margin: 0;
+}
+
+.congreso-timeline__item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--congreso-primary);
+  border: 2px solid var(--congreso-white);
+  box-shadow: 0 0 0 2px var(--congreso-primary);
+}
+
+.congreso-timeline__item:last-child {
+  padding-bottom: 0;
+}
+
+.congreso-timeline__time {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--congreso-primary);
+  display: block;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.04em;
+}
+
+.congreso-timeline__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--congreso-dark);
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.congreso-timeline__speaker {
+  font-size: 0.875rem;
+  color: var(--congreso-gray);
+  font-style: italic;
+  margin: 0;
+}
+
+.congreso-timeline__break {
+  background-color: var(--congreso-light);
+  border: 1.5px dashed var(--congreso-border);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--congreso-gray);
+}
+
+.congreso-timeline__break.congreso-timeline__item::before {
+  background-color: var(--congreso-border);
+  box-shadow: 0 0 0 2px var(--congreso-border);
+}
+
+.congreso-timeline__session-header {
+  background-color: var(--congreso-primary-dark);
+  color: var(--congreso-white);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.congreso-timeline__session-header.congreso-timeline__item::before {
+  background-color: var(--congreso-primary-dark);
+  box-shadow: 0 0 0 2px var(--congreso-primary-dark);
+}
+
+/* =============================================================================
+   10. SPEAKER CARDS
+   ============================================================================= */
+
+.congreso-speaker {
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  padding: 2rem 1.25rem 1.5rem;
+  text-align: center;
+  transition: var(--congreso-transition);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.congreso-speaker:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-4px);
+}
+
+.congreso-speaker__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--congreso-primary);
+  margin-bottom: 1.25rem;
+  display: block;
+  flex-shrink: 0;
+}
+
+.congreso-speaker__placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--congreso-light);
+  border: 3px solid var(--congreso-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  flex-shrink: 0;
+  color: var(--congreso-gray);
+}
+
+.congreso-speaker__placeholder svg {
+  width: 56px;
+  height: 56px;
+  opacity: 0.6;
+}
+
+.congreso-speaker__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--congreso-dark);
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+.congreso-speaker__specialty {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--congreso-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+}
+
+.congreso-speaker__title {
+  font-size: 0.875rem;
+  color: var(--congreso-gray);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.congreso-speaker__country {
+  font-size: 0.875rem;
+  color: var(--congreso-gray);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Country flag pseudo-elements (flags not in HTML due to CKEditor issues) */
+.congreso-speaker--co .congreso-speaker__country::before { content: "\1F1E8\1F1F4"; margin-right: 0.4em; }
+.congreso-speaker--ch .congreso-speaker__country::before { content: "\1F1E8\1F1ED"; margin-right: 0.4em; }
+.congreso-speaker--es .congreso-speaker__country::before { content: "\1F1EA\1F1F8"; margin-right: 0.4em; }
+.congreso-speaker--de .congreso-speaker__country::before { content: "\1F1E9\1F1EA"; margin-right: 0.4em; }
+.congreso-speaker--it .congreso-speaker__country::before { content: "\1F1EE\1F1F9"; margin-right: 0.4em; }
+.congreso-speaker--br .congreso-speaker__country::before { content: "\1F1E7\1F1F7"; margin-right: 0.4em; }
+.congreso-speaker--mx .congreso-speaker__country::before { content: "\1F1F2\1F1FD"; margin-right: 0.4em; }
+.congreso-speaker--ar .congreso-speaker__country::before { content: "\1F1E6\1F1F7"; margin-right: 0.4em; }
+.congreso-speaker--ve .congreso-speaker__country::before { content: "\1F1FB\1F1EA"; margin-right: 0.4em; }
+
+/* =============================================================================
+   11. PRICING CARDS
+   ============================================================================= */
+
+.congreso-pricing {
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: var(--congreso-transition);
+  height: 100%;
+  border: 2px solid transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.congreso-pricing:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-4px);
+}
+
+.congreso-pricing--featured {
+  border-color: var(--congreso-accent);
+  transform: scale(1.05);
+  z-index: 1;
+  box-shadow: 0 8px 30px rgba(201, 168, 76, 0.2);
+}
+
+.congreso-pricing--featured:hover {
+  transform: scale(1.07) translateY(-4px);
+}
+
+.congreso-pricing--featured .congreso-pricing__featured-badge {
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--congreso-accent);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.3em 1.1em;
+  border-radius: 0 0 8px 8px;
+  white-space: nowrap;
+}
+
+.congreso-pricing__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--congreso-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.congreso-pricing__period {
+  font-size: 0.8rem;
+  color: var(--congreso-gray);
+  margin-bottom: 1.5rem;
+}
+
+.congreso-pricing__price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--congreso-primary);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.congreso-pricing--featured .congreso-pricing__price {
+  color: var(--congreso-accent);
+}
+
+.congreso-pricing__currency {
+  font-size: 1.2rem;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 1;
+}
+
+.congreso-pricing__category {
+  font-size: 0.85rem;
+  color: var(--congreso-gray);
+  margin-bottom: 1.5rem;
+}
+
+.congreso-pricing__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.congreso-pricing__list li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  color: var(--congreso-dark);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.congreso-pricing__list li::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%230d8a8a'%3E%3Cpath fill-rule='evenodd' d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* =============================================================================
+   12. PRE-CONGRESS (PRECURSO)
+   ============================================================================= */
+
+.congreso-precurso {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--congreso-radius);
+  padding: 2rem;
+  color: var(--congreso-white);
+  transition: var(--congreso-transition);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.congreso-precurso:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.congreso-precurso__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--congreso-white);
+  margin-bottom: 0.5rem;
+}
+
+.congreso-precurso__meta {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.congreso-precurso__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.congreso-precurso__meta-item svg {
+  opacity: 0.75;
+  flex-shrink: 0;
+}
+
+.congreso-precurso__desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.congreso-precurso__price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--congreso-accent);
+}
+
+/* =============================================================================
+   13. REGISTRATION FORM
+   ============================================================================= */
+
+.congreso-form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+}
+
+.congreso-form-wrapper .form-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--congreso-dark);
+  margin-bottom: 0.4rem;
+}
+
+.congreso-form-wrapper .form-control,
+.congreso-form-wrapper .form-select {
+  border: 2px solid var(--congreso-border);
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  transition: var(--congreso-transition);
+  color: var(--congreso-dark);
+}
+
+.congreso-form-wrapper .form-control:focus,
+.congreso-form-wrapper .form-select:focus {
+  border-color: var(--congreso-primary);
+  box-shadow: 0 0 0 3px rgba(13, 138, 138, 0.15);
+  outline: none;
+}
+
+.congreso-form-wrapper .form-control::placeholder {
+  color: #adb5bd;
+}
+
+.congreso-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.congreso-form-note {
+  font-size: 0.8rem;
+  color: var(--congreso-gray);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* =============================================================================
+   14. CONTACT CARDS
+   ============================================================================= */
+
+.congreso-contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  padding: 1.5rem;
+  transition: var(--congreso-transition);
+}
+
+.congreso-contact-card:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-3px);
+}
+
+.congreso-contact-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--congreso-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--congreso-primary);
+}
+
+.congreso-contact-card__icon svg {
+  width: 22px;
+  height: 22px;
+  color: var(--congreso-primary);
+}
+
+.congreso-contact-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.congreso-contact-card__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--congreso-gray);
+  margin-bottom: 0.2rem;
+}
+
+.congreso-contact-card__value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--congreso-dark);
+  word-break: break-word;
+}
+
+.congreso-contact-card a {
+  color: var(--congreso-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--congreso-transition);
+}
+
+.congreso-contact-card a:hover,
+.congreso-contact-card a:focus {
+  color: var(--congreso-primary-dark);
+  text-decoration: underline;
+}
+
+/* Social links row */
+.congreso-social-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.congreso-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--congreso-primary-light);
+  color: var(--congreso-primary);
+  text-decoration: none;
+  transition: var(--congreso-transition);
+}
+
+.congreso-social-link:hover,
+.congreso-social-link:focus {
+  background-color: var(--congreso-primary);
+  color: var(--congreso-white);
+  transform: translateY(-2px);
+}
+
+.congreso-social-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* =============================================================================
+   15. RESPONSIVE MEDIA QUERIES — TABLET (≤991.98px)
+   ============================================================================= */
+
+@media (max-width: 991.98px) {
+  .congreso-section {
+    padding: 3.5rem 0;
+  }
+
+  .congreso-section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .congreso-hero {
+    min-height: 70vh;
+    padding: 3rem 0;
+  }
+
+  .congreso-hero__title {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+  }
+
+  .congreso-pricing--featured {
+    transform: scale(1.02);
+  }
+
+  .congreso-pricing--featured:hover {
+    transform: scale(1.04) translateY(-4px);
+  }
+
+  .congreso-subnav .nav-link {
+    padding: 0.85rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .congreso-timeline__item {
+    padding-left: 1.5rem;
+  }
+}
+
+/* =============================================================================
+   16. RESPONSIVE MEDIA QUERIES — MOBILE (≤767.98px)
+   ============================================================================= */
+
+@media (max-width: 767.98px) {
+  .congreso-section {
+    padding: 3rem 0;
+  }
+
+  .congreso-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .congreso-hero {
+    min-height: 60vh;
+    padding: 2.5rem 0;
+  }
+
+  .congreso-hero__title {
+    font-size: clamp(1.5rem, 6vw, 2.25rem);
+  }
+
+  .congreso-hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .congreso-hero__meta {
+    flex-direction: column;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .congreso-hero__cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .congreso-hero__cta .congreso-btn-primary,
+  .congreso-hero__cta .congreso-btn-outline {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  /* Info cards single column handled by Bootstrap grid */
+  .congreso-info-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .congreso-pricing--featured {
+    transform: none;
+  }
+
+  .congreso-pricing--featured:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Pricing stacks to single column via Bootstrap */
+  .congreso-pricing {
+    margin-bottom: 1.5rem;
+  }
+
+  .congreso-speaker__photo,
+  .congreso-speaker__placeholder {
+    width: 96px;
+    height: 96px;
+  }
+
+  .congreso-form-wrapper {
+    padding: 1.5rem;
+  }
+
+  .congreso-contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .congreso-timeline {
+    border-left-width: 2px;
+  }
+
+  .congreso-timeline__item {
+    padding-left: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+/* =============================================================================
+   17. RESPONSIVE MEDIA QUERIES — SMALL MOBILE (≤575.98px)
+   ============================================================================= */
+
+@media (max-width: 575.98px) {
+  .congreso-section {
+    padding: 2.25rem 0;
+  }
+
+  .congreso-section-title {
+    font-size: 1.35rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .congreso-hero {
+    min-height: auto;
+    padding: 2.5rem 0 2rem;
+  }
+
+  .congreso-hero__eyebrow {
+    font-size: 0.8rem;
+  }
+
+  .congreso-hero__title {
+    font-size: 1.6rem;
+  }
+
+  .congreso-hero__badges {
+    gap: 0.5rem;
+  }
+
+  .congreso-hero__badge {
+    font-size: 0.78rem;
+    padding: 0.35em 0.8em;
+  }
+
+  .congreso-btn-primary,
+  .congreso-btn-outline {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .congreso-info-card__icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .congreso-info-card__icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .congreso-pricing__price {
+    font-size: 2rem;
+  }
+
+  .congreso-subnav .nav-link {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .congreso-form-wrapper {
+    padding: 1.25rem 1rem;
+    border-radius: 8px;
+  }
+
+  .congreso-precurso {
+    padding: 1.5rem 1rem;
+  }
+
+  .congreso-speaker {
+    padding: 1.5rem 1rem;
+  }
+
+  .congreso-speaker__name {
+    font-size: 0.95rem;
+  }
+
+  .congreso-contact-card {
+    padding: 1.25rem;
+  }
+}
+
+/* =============================================================================
+   18. PRINT STYLES
+   ============================================================================= */
+
+@media print {
+  .congreso-subnav,
+  .congreso-hero__cta,
+  .congreso-form-wrapper {
+    display: none;
+  }
+
+  .congreso-hero {
+    min-height: auto;
+    padding: 2rem 0;
+    background: none;
+    color: #000;
+  }
+
+  .congreso-hero__title,
+  .congreso-hero__subtitle {
+    color: #000;
+  }
+
+  .congreso-card,
+  .congreso-info-card,
+  .congreso-speaker,
+  .congreso-pricing,
+  .congreso-contact-card {
+    box-shadow: none;
+    border: 1px solid #dee2e6;
+  }
+}

@@ -10,7 +10,7 @@
    1. CSS CUSTOM PROPERTIES & BASE
    ============================================================================= */
 
-.congreso-wrapper {
+:root {
   --congreso-primary: #0d8a8a;
   --congreso-primary-dark: #076969;
   --congreso-primary-light: #e6f4f4;
@@ -27,9 +27,7 @@
   --congreso-transition: all 0.3s ease;
 }
 
-.congreso-wrapper *,
-.congreso-wrapper *::before,
-.congreso-wrapper *::after {
+[class*="congreso-"] {
   box-sizing: border-box;
 }
 

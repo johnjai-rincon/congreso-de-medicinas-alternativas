@@ -205,7 +205,7 @@
   position: sticky;
   top: 0;
   z-index: 1020;
-  background-color: var(--congreso-white);
+  background-color: var(--congreso-light);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -218,6 +218,8 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  justify-content: center;
+  width: 100%;
 }
 
 .congreso-subnav .nav::-webkit-scrollbar {

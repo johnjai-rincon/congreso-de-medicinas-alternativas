@@ -1,12 +1,49 @@
 <section id="congreso-formulario" class="congreso-section congreso-section--light congreso-wrapper">
   <div class="container">
 
-    <h2 class="congreso-section-title">Inscripción</h2>
-    <p class="text-center mb-4" style="font-size: 1rem; color: #6c757d; margin-top: -2rem;">
-      Completa el formulario para reservar tu cupo en el II Congreso Iberoamericano
-    </p>
+    <!-- Decorative header area -->
+    <div class="text-center mb-4">
 
-    <div class="congreso-form-wrapper">
+      <!-- Icon in teal circle -->
+      <div style="width:72px;height:72px;border-radius:50%;background-color:var(--congreso-primary);display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+          <rect x="9" y="3" width="6" height="4" rx="1" ry="1"/>
+          <line x1="9" y1="12" x2="15" y2="12"/>
+          <line x1="9" y1="16" x2="13" y2="16"/>
+        </svg>
+      </div>
+
+      <h2 class="congreso-section-title" style="margin-bottom:0.75rem;">Inscripción</h2>
+
+      <p style="font-size:1.05rem;color:var(--congreso-gray);max-width:520px;margin:0 auto 1.5rem;line-height:1.6;">
+        Reserva tu cupo y sé parte de este evento internacional
+      </p>
+
+      <!-- Info badges / pills -->
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.6rem;margin-bottom:0.5rem;">
+        <span class="congreso-badge congreso-badge--primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:5px;" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          500 cupos presenciales
+        </span>
+        <span class="congreso-badge congreso-badge--primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:5px;" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          2.000 virtuales
+        </span>
+        <span class="congreso-badge congreso-badge--accent">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:5px;" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          Certificado digital
+        </span>
+      </div>
+
+    </div><!-- /.text-center -->
+
+    <!-- Form card -->
+    <div class="congreso-form-wrapper" style="border-top:4px solid var(--congreso-primary);">
+
+      <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--congreso-gray);margin-bottom:1.25rem;">
+        Formulario de registro
+      </p>
 
       <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
       <script>
@@ -17,11 +54,34 @@
         });
       </script>
 
+    </div><!-- /.congreso-form-wrapper -->
+
+    <!-- Trust indicators row -->
+    <div style="max-width:600px;margin:1.25rem auto 0;display:flex;flex-wrap:wrap;justify-content:center;gap:1.25rem;">
+
+      <div style="display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;color:var(--congreso-gray);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--congreso-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Datos protegidos</span>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;color:var(--congreso-gray);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--congreso-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>Conexión segura</span>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;color:var(--congreso-gray);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--congreso-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <span>Confirmación inmediata</span>
+      </div>
+
+    </div><!-- /.trust indicators -->
+
+    <!-- Privacy policy note -->
+    <div style="max-width:600px;margin:0.75rem auto 0;">
       <p class="congreso-form-note">
         Al enviar este formulario, aceptas nuestra política de tratamiento de datos personales.
       </p>
-
-    </div><!-- /.congreso-form-wrapper -->
+    </div>
 
   </div><!-- /.container -->
 </section>

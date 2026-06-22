@@ -1206,8 +1206,147 @@
   }
 }
 
+
 /* =============================================================================
-   18. PRINT STYLES
+   19. THANK-YOU PAGE
+   ============================================================================= */
+
+.congreso-gracias {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    var(--congreso-dark) 0%,
+    var(--congreso-primary-dark) 50%,
+    var(--congreso-primary) 100%
+  );
+  padding: 4rem 1.5rem;
+  text-align: center;
+  color: var(--congreso-white);
+}
+
+.congreso-gracias__icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  animation: congreso-gracias-pop 0.6s ease-out;
+}
+
+@keyframes congreso-gracias-pop {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.congreso-gracias__title {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--congreso-white);
+}
+
+.congreso-gracias__subtitle {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.congreso-gracias__card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--congreso-radius);
+  padding: 1.5rem 2rem;
+  max-width: 500px;
+  margin: 0 auto 2.5rem;
+  text-align: left;
+}
+
+.congreso-gracias__card-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--congreso-accent);
+  margin-bottom: 1rem;
+}
+
+.congreso-gracias__step {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+.congreso-gracias__step:last-child {
+  margin-bottom: 0;
+}
+
+.congreso-gracias__step-num {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--congreso-accent);
+  color: var(--congreso-dark);
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.congreso-gracias__cta {
+  display: inline-block;
+  background: var(--congreso-white);
+  color: var(--congreso-primary);
+  font-weight: 700;
+  padding: 0.85rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: var(--congreso-transition);
+}
+
+.congreso-gracias__cta:hover {
+  background: var(--congreso-accent);
+  color: var(--congreso-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--congreso-shadow-hover);
+}
+
+.congreso-gracias__contact {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.congreso-gracias__contact a {
+  color: var(--congreso-accent);
+  text-decoration: none;
+}
+
+.congreso-gracias__contact a:hover {
+  text-decoration: underline;
+}
+
+/* =============================================================================
+   20. PRINT STYLES
    ============================================================================= */
 
 @media print {

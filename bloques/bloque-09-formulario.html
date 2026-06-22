@@ -45,14 +45,25 @@
         Formulario de registro
       </p>
 
-      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-      <script>
-        hbspt.forms.create({
-          portalId: "46379526",
-          formId: "73f902f0-f582-492b-8cca-2db5358f8498",
-          region: "na1"
-        });
-      </script>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>&nbsp;<script>
+                hbspt.forms.create({
+                  portalId: "46379526",
+                  formId: "73f902f0-f582-492b-8cca-2db5358f8498",
+                  region: "na1",
+                  onFormReady: function($form) {
+                    // Puedes establecer un valor predeterminado para el campo oculto
+                    // CAMBIAR AQUÍ EL CÓDIGO:
+                    var codigoValue = "0I89";
+                    // Crear un campo oculto y añadirlo al formulario
+                    var hiddenField = document.createElement("input");
+                    hiddenField.type = "hidden";
+                    hiddenField.name = "codigo_programa";
+                    hiddenField.value = codigoValue;
+                    // Añadir el campo al formulario
+                    $form.append(hiddenField);
+                  }
+                });
+              </script>
 
     </div><!-- /.congreso-form-wrapper -->
 

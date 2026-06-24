@@ -11,14 +11,14 @@
    ============================================================================= */
 
 :root {
-  --congreso-primary: #0d8a8a;
-  --congreso-primary-dark: #076969;
-  --congreso-primary-light: #e6f4f4;
-  --congreso-dark: #1a1a2e;
-  --congreso-light: #f5f6f8;
+  --congreso-primary: #3b40a0;
+  --congreso-primary-dark: #252878;
+  --congreso-primary-light: #eaecf8;
+  --congreso-dark: #0f1838;
+  --congreso-light: #f0f1f8;
   --congreso-white: #ffffff;
-  --congreso-accent: #c9a84c;
-  --congreso-accent-light: #f9f3e3;
+  --congreso-accent: #5a8ec6;
+  --congreso-accent-light: #e8f0f8;
   --congreso-gray: #6c757d;
   --congreso-border: #dee2e6;
   --congreso-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);

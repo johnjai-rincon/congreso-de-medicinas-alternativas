@@ -646,16 +646,54 @@
   justify-content: center;
 }
 
-/* Country flag pseudo-elements (flags not in HTML due to CKEditor issues) */
-.congreso-speaker--co .congreso-speaker__country::before { content: "\1F1E8 \1F1F4"; margin-right: 0.4em; }
-.congreso-speaker--ch .congreso-speaker__country::before { content: "\1F1E8 \1F1ED"; margin-right: 0.4em; }
-.congreso-speaker--es .congreso-speaker__country::before { content: "\1F1EA \1F1F8"; margin-right: 0.4em; }
-.congreso-speaker--de .congreso-speaker__country::before { content: "\1F1E9 \1F1EA"; margin-right: 0.4em; }
-.congreso-speaker--it .congreso-speaker__country::before { content: "\1F1EE \1F1F9"; margin-right: 0.4em; }
-.congreso-speaker--br .congreso-speaker__country::before { content: "\1F1E7 \1F1F7"; margin-right: 0.4em; }
-.congreso-speaker--mx .congreso-speaker__country::before { content: "\1F1F2 \1F1FD"; margin-right: 0.4em; }
-.congreso-speaker--ar .congreso-speaker__country::before { content: "\1F1E6 \1F1F7"; margin-right: 0.4em; }
-.congreso-speaker--ve .congreso-speaker__country::before { content: "\1F1FB \1F1EA"; margin-right: 0.4em; }
+/* Country flag pseudo-elements (CSS gradients — cross-platform, no emoji dependency) */
+.congreso-speaker__country::before {
+  content: "";
+  display: inline-block;
+  width: 1.4em;
+  height: 1em;
+  margin-right: 0.4em;
+  border-radius: 2px;
+  vertical-align: middle;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+.congreso-speaker--co .congreso-speaker__country::before {
+  background: linear-gradient(to bottom, #FCD116 50%, #003893 50%, #003893 75%, #CE1126 75%);
+}
+.congreso-speaker--ch .congreso-speaker__country::before {
+  background: #D52B1E;
+  background-image:
+    linear-gradient(to bottom, transparent 30%, #fff 30%, #fff 70%, transparent 70%),
+    linear-gradient(to right, transparent 38%, #fff 38%, #fff 62%, transparent 62%);
+}
+.congreso-speaker--es .congreso-speaker__country::before {
+  background: linear-gradient(to bottom, #AA151B 25%, #F1BF00 25%, #F1BF00 75%, #AA151B 75%);
+}
+.congreso-speaker--de .congreso-speaker__country::before {
+  background: linear-gradient(to bottom, #000 33.3%, #DD0000 33.3%, #DD0000 66.6%, #FFCC00 66.6%);
+}
+.congreso-speaker--it .congreso-speaker__country::before {
+  background: linear-gradient(to right, #009246 33.3%, #fff 33.3%, #fff 66.6%, #CE2B37 66.6%);
+}
+.congreso-speaker--br .congreso-speaker__country::before {
+  background: #009739;
+  background-image:
+    linear-gradient(45deg, transparent 25%, #FEDD00 25%, #FEDD00 30%, transparent 30%),
+    linear-gradient(-45deg, transparent 25%, #FEDD00 25%, #FEDD00 30%, transparent 30%),
+    linear-gradient(135deg, transparent 25%, #FEDD00 25%, #FEDD00 30%, transparent 30%),
+    linear-gradient(-135deg, transparent 25%, #FEDD00 25%, #FEDD00 30%, transparent 30%);
+  background-position: center;
+}
+.congreso-speaker--mx .congreso-speaker__country::before {
+  background: linear-gradient(to right, #006341 33.3%, #fff 33.3%, #fff 66.6%, #CE1126 66.6%);
+}
+.congreso-speaker--ar .congreso-speaker__country::before {
+  background: linear-gradient(to bottom, #74ACDF 33.3%, #fff 33.3%, #fff 66.6%, #74ACDF 66.6%);
+}
+.congreso-speaker--ve .congreso-speaker__country::before {
+  background: linear-gradient(to bottom, #FCE300 33.3%, #003DA5 33.3%, #003DA5 66.6%, #EF3340 66.6%);
+}
 
 /* =============================================================================
    11. PRICING CARDS

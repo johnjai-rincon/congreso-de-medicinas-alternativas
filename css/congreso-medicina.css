@@ -1138,6 +1138,7 @@
   }
 
   .congreso-speaker__photo,
+  .congreso-speaker__img,
   .congreso-speaker__placeholder {
     width: 96px;
     height: 96px;

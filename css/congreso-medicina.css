@@ -582,7 +582,8 @@
   transform: translateY(-4px);
 }
 
-.congreso-speaker__photo {
+.congreso-speaker__photo,
+.congreso-speaker__img {
   width: 120px;
   height: 120px;
   border-radius: 50%;

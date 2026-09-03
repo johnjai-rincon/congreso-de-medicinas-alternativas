@@ -348,6 +348,8 @@
 }
 
 .congreso-hero__badge {
+  display: inline-flex;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.15);
   color: var(--congreso-white);
   border: 1px solid rgba(255, 255, 255, 0.35);

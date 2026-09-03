@@ -361,18 +361,21 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
-a.congreso-hero__badge--link {
+.congreso-hero__badge--link {
   text-decoration: none;
   color: var(--congreso-white);
-  background-color: rgba(255, 255, 255, 0.22);
-  border-color: rgba(255, 255, 255, 0.5);
-  transition: background-color 0.3s, border-color 0.3s;
+  transition: opacity 0.3s;
 }
 
-a.congreso-hero__badge--link:hover {
-  background-color: rgba(255, 255, 255, 0.35);
-  border-color: rgba(255, 255, 255, 0.7);
+.congreso-hero__badge--link:hover {
+  color: var(--congreso-white);
   text-decoration: underline;
+  opacity: 0.85;
+}
+
+.congreso-hero__badge:has(.congreso-hero__badge--link) {
+  background-color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .congreso-hero__cta {

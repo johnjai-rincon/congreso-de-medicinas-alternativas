@@ -359,6 +359,20 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
+a.congreso-hero__badge--link {
+  text-decoration: none;
+  color: var(--congreso-white);
+  background-color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+a.congreso-hero__badge--link:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
 .congreso-hero__cta {
   display: flex;
   flex-wrap: wrap;

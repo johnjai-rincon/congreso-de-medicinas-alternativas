@@ -2665,51 +2665,138 @@
 </section>
 
     <!-- bloque-07-inversion.html -->
+<!-- bloque-07-inversion.html — Sección "Inversión por Etapa" -->
 <section class="congreso-section" id="congreso-inversion">
-    <div class="container">
-        <h2 class="congreso-section-title">
-            Inversión
-        </h2>
-        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
-            <!-- Card 1 — Preventa Lanzamiento (FEATURED) -->
-            <div class="col col-lg-4">
-                <div class="congreso-pricing congreso-pricing--featured">
-                    <div class="congreso-pricing__featured-badge">
-                        Mejor precio
-                    </div>
-                    <p class="congreso-pricing__name">
-                        Segunda etapa
-                    </p>
-                    <p class="congreso-pricing__price">
-                        $690.000
-                    </p>
-                    <div class="mt-auto pt-3">
-                        <a class="congreso-btn-primary w-100 text-center" href="#congreso-formulario">Inscríbete</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 — Última Etapa -->
-            <div class="col col-lg-4">
-                <div class="congreso-pricing">
-                    <p class="congreso-pricing__name">
-                        Última etapa
-                    </p>
-                    <p class="congreso-pricing__price">
-                        $890.000
-                    </p>
-                    <div class="mt-auto pt-3">
-                        <a class="congreso-btn-primary w-100 text-center" href="#congreso-formulario">Inscríbete</a>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+
+    <h2 class="congreso-section-title">Inversión</h2>
+    <p class="text-center congreso-pricing-subtitle">La tarifa se determina según la etapa vigente al momento de formalizar la inscripción.</p>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card Presencial -->
+      <div class="col-md-6 col-lg-5">
+        <div class="congreso-pricing congreso-pricing--featured">
+          <div class="congreso-pricing__featured-badge">Presencial</div>
+          <div class="congreso-pricing__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 21h18"></path>
+              <path d="M5 21V7l8-4v18"></path>
+              <path d="M19 21V11l-6-4"></path>
+              <path d="M9 9v.01"></path><path d="M9 12v.01"></path>
+              <path d="M9 15v.01"></path><path d="M9 18v.01"></path>
+            </svg>
+          </div>
+          <p class="congreso-pricing__name">Modalidad Presencial</p>
+          <ul class="congreso-pricing-stages">
+            <li class="congreso-pricing-stage" data-stage-end="2026-08-31">
+              <span class="congreso-pricing-stage__date">Hasta 31 de agosto</span>
+              <span class="congreso-pricing-stage__price">$590.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-09-01" data-stage-end="2026-09-30">
+              <span class="congreso-pricing-stage__date">1 al 30 de septiembre</span>
+              <span class="congreso-pricing-stage__price">$690.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-10-01" data-stage-end="2026-10-20">
+              <span class="congreso-pricing-stage__date">1 al 20 de octubre</span>
+              <span class="congreso-pricing-stage__price">$790.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-10-21">
+              <span class="congreso-pricing-stage__date">Desde 21 de octubre</span>
+              <span class="congreso-pricing-stage__price">$890.000</span>
+            </li>
+          </ul>
+          <div class="mt-auto pt-3">
+            <a href="#congreso-formulario" class="congreso-btn-primary w-100 text-center">Inscríbete</a>
+          </div>
         </div>
-        <!-- /.row -->
-        <p class="text-center text-muted mt-4" style="font-size:0.85rem;">
-            Precios en pesos colombianos (COP). Venta por etapas.
-        </p>
-    </div>
-    <!-- /.container -->
+      </div>
+
+      <!-- Card Remoto / Streaming -->
+      <div class="col-md-6 col-lg-5">
+        <div class="congreso-pricing">
+          <div class="congreso-pricing__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <p class="congreso-pricing__name">Modalidad Remoto</p>
+          <ul class="congreso-pricing-stages">
+            <li class="congreso-pricing-stage" data-stage-end="2026-08-31">
+              <span class="congreso-pricing-stage__date">Hasta 31 de agosto</span>
+              <span class="congreso-pricing-stage__price">$250.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-09-01" data-stage-end="2026-09-30">
+              <span class="congreso-pricing-stage__date">1 al 30 de septiembre</span>
+              <span class="congreso-pricing-stage__price">$300.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-10-01" data-stage-end="2026-10-20">
+              <span class="congreso-pricing-stage__date">1 al 20 de octubre</span>
+              <span class="congreso-pricing-stage__price">$350.000</span>
+            </li>
+            <li class="congreso-pricing-stage" data-stage-start="2026-10-21">
+              <span class="congreso-pricing-stage__date">Desde 21 de octubre</span>
+              <span class="congreso-pricing-stage__price">$390.000</span>
+            </li>
+          </ul>
+          <div class="mt-auto pt-3">
+            <a href="#congreso-formulario" class="congreso-btn-primary w-100 text-center">Inscríbete</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.row -->
+
+    <p class="text-center text-muted mt-4" style="font-size:0.85rem;">
+      Precios en pesos colombianos (COP). Venta por etapas.
+    </p>
+
+  </div><!-- /.container -->
 </section>
+
+<script>
+(function() {
+  var today = new Date();
+  today.setHours(0,0,0,0);
+  var stages = document.querySelectorAll('.congreso-pricing-stage');
+  var found = {};
+
+  stages.forEach(function(li) {
+    var card = li.closest('.congreso-pricing');
+    var cardKey = card ? card.querySelector('.congreso-pricing__name').textContent.trim() : '';
+    var endAttr = li.getAttribute('data-stage-end');
+    var startAttr = li.getAttribute('data-stage-start');
+
+    var endDate = endAttr ? new Date(endAttr + 'T23:59:59') : null;
+    var startDate = startAttr ? new Date(startAttr + 'T00:00:00') : null;
+
+    var isPast = endDate && endDate < today;
+    var isCurrent = false;
+
+    if (!found[cardKey]) {
+      if (startDate && endDate) {
+        isCurrent = today >= startDate && today <= endDate;
+      } else if (!startDate && endDate) {
+        isCurrent = today <= endDate;
+      } else if (startDate && !endDate) {
+        isCurrent = today >= startDate;
+      }
+    }
+
+    if (isPast) {
+      li.classList.add('congreso-pricing-stage--past');
+    } else if (isCurrent) {
+      li.classList.add('congreso-pricing-stage--current');
+      found[cardKey] = true;
+    }
+  });
+})();
+</script>
+
 
     <!-- bloque-08-precongreso.html -->
 <section id="congreso-precongreso" class="congreso-section congreso-section--dark">

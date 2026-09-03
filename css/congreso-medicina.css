@@ -815,6 +815,86 @@
   margin-top: 1px;
 }
 
+.congreso-pricing-subtitle {
+  font-size: 1rem;
+  color: var(--congreso-gray);
+  margin-bottom: 2rem;
+}
+
+.congreso-pricing__icon {
+  margin-bottom: 1rem;
+  color: var(--congreso-primary);
+}
+
+.congreso-pricing--featured .congreso-pricing__icon {
+  color: var(--congreso-accent);
+}
+
+.congreso-pricing-stages {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+.congreso-pricing-stage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  transition: opacity 0.3s, background-color 0.3s;
+}
+
+.congreso-pricing-stage:last-child {
+  border-bottom: none;
+}
+
+.congreso-pricing-stage__date {
+  font-size: 0.9rem;
+  color: var(--congreso-dark);
+}
+
+.congreso-pricing-stage__price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--congreso-primary);
+  white-space: nowrap;
+}
+
+.congreso-pricing--featured .congreso-pricing-stage__price {
+  color: var(--congreso-accent);
+}
+
+.congreso-pricing-stage--past {
+  opacity: 0.4;
+  text-decoration: line-through;
+  text-decoration-color: rgba(0,0,0,0.3);
+}
+
+.congreso-pricing-stage--past .congreso-pricing-stage__price {
+  text-decoration: line-through;
+  text-decoration-color: rgba(0,0,0,0.3);
+}
+
+.congreso-pricing-stage--current {
+  background-color: rgba(59, 64, 160, 0.08);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.congreso-pricing--featured .congreso-pricing-stage--current {
+  background-color: rgba(201, 168, 76, 0.12);
+}
+
+.congreso-pricing-stage--current .congreso-pricing-stage__date {
+  font-weight: 600;
+}
+
+.congreso-pricing-stage--current .congreso-pricing-stage__price {
+  font-size: 1.25rem;
+}
+
 /* =============================================================================
    12. PRE-CONGRESS (PRECURSO)
    ============================================================================= */

@@ -1488,6 +1488,71 @@
    20. PRINT STYLES
    ============================================================================= */
 
+/* =============================================================================
+   PARTNERS / CON EL APOYO DE
+   ============================================================================= */
+
+.congreso-partners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.congreso-partners__item {
+  background: var(--congreso-white);
+  border-radius: var(--congreso-radius);
+  box-shadow: var(--congreso-shadow);
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  transition: var(--congreso-transition);
+}
+
+.congreso-partners__item:hover {
+  box-shadow: var(--congreso-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.congreso-partners__logo {
+  max-width: 100%;
+  max-height: 70px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(30%);
+  opacity: 0.85;
+  transition: var(--congreso-transition);
+}
+
+.congreso-partners__item:hover .congreso-partners__logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+  .congreso-partners {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .congreso-partners {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .congreso-partners__item {
+    padding: 1rem 0.75rem;
+    min-height: 80px;
+  }
+
+  .congreso-partners__logo {
+    max-height: 55px;
+  }
+}
+
 @media print {
   .congreso-subnav,
   .congreso-hero__cta,
